@@ -1,7 +1,12 @@
 -- modified by Karl Arao for RDS Mariadb 10.1.23 compatibility
 -- original project https://github.com/hatem-mahmoud/Ash_sampler
 
+-- Pre-req: 
+-- -----------
+-- performance_schema	1 or ON
+
 -- Installation: 
+-- -----------
 --   on your text editor replace mariadb2 with the username that you'll use for monitoring
 -- or use sed below:
 --   sed 's/mariadb2/your_username_here/g' 01_create_objects.sql.bak > 01.sql
